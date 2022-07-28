@@ -10,9 +10,9 @@ I have build this Landing Template with my core HTML CSS skills
 
 ![image](./created.png)
 
-You can check out here: [Street Style  By Hitesh](https://saas-landing-page-by-hitesh.netlify.app/)
+You can check out here: [Street Style  By Hitesh](https://street-style-by-hitesh.netlify.app/)
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60e0e91c-2344-4361-94b5-cf7c7254f467/deploy-status)](https://app.netlify.com/sites/street-style-by-hitesh/deploys)
 
 ## What i have learned from this project
 
