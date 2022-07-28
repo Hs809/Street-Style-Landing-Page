@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 3rem;
+}
+.navbar-container > div > img {
+  width: 100px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.list > li {
+  list-style: none;
+  margin-right: 3rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+}
+.list > li:first-child {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.list > li:first-child:after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 25px;
+  width: 35px;
+  height: 3px;
+  background: black;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-icon > svg {
+  width: 20px;
+  margin-right: 1rem;
+}
+.nav-button {
+  padding: 5px 2rem;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0rem 3rem;
+  gap: 3rem;
+  position: relative;
+}
+.square,
+.star,
+.globe,
+.star2 {
+  position: absolute;
+}
+.square {
+  top: 215px;
+  left: 130px;
+  z-index: -1;
+}
+.square > img {
+  z-index: -1;
+  width: 275px;
+}
+.star {
+  top: 20px;
+  right: 25px;
+}
+.star > img {
+  width: 50px;
+}
+.star2 {
+  bottom: 50px;
+  left: 450px;
+}
+.star2 > img {
+  width: 50px;
+}
+.globe {
+  top: 0px;
+  left: 550px;
+}
+.globe img {
+  width: 50px;
+}
+.hero-container > div > img {
+  width: 350px;
+}
+.hero-container-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  margin-top: 6rem;
+}
+.hero-container-right > * {
+  margin: auto;
+}
+.hero-heading {
+  font-size: 55px;
+  margin: auto;
+}
+.hero-description {
+  font-size: 12px;
+  width: 85%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.button-email {
+  padding: 5px 2.5rem;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background: transparent;
+}
+.button-join {
+  padding: 4px 0.2rem;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.hero-container-right > div {
+  margin-top: 3rem;
+}
+.contact-heading {
+  margin-bottom: 1rem;
+  color: #3e3d3d;
+  letter-spacing: 1px;
+}
+.icons span img {
+  width: 40px;
+}
