@@ -25,13 +25,15 @@
   margin-right: 3rem;
   font-family: "Roboto Mono", monospace;
   font-weight: 600;
+  cursor: pointer;
   font-size: 18px;
 }
-.list > li:first-child {
+.list li:hover {
   font-weight: bolder;
-  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
-.list > li:first-child:after {
+/* .list > li:first-child:after {
   content: "";
   position: absolute;
   left: 7px;
@@ -39,7 +41,7 @@
   width: 35px;
   height: 3px;
   background: black;
-}
+} */
 .button-group {
   display: flex;
   justify-content: space-between;
